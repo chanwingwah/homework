@@ -4,6 +4,7 @@ body{
 }
 .wraper{
 	max-width: 1366px;
+	min-width: 900px;
 	margin: 0 auto;
 }
 .Main_h{
