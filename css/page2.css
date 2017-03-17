@@ -5,6 +5,7 @@ body{
 .wraper{
 	max-width: 1366px;
 	min-width: 900px;
+	border: 1px solid #989898;
 
 	margin: 0 auto;
 }
