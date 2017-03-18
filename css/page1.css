@@ -4,7 +4,7 @@ body{
 }
 .wraper{
 	max-width: 1366px;
-	min-width: 900px;
+	min-width: 720px;
 	margin: 0 auto;
 	border: 1px solid #989898;
 }
@@ -20,7 +20,6 @@ h1{
 	color: #FFF;
 	padding: 20px;
 }
-
 h2{
 	font-size:30px;
 	margin: 0;
@@ -40,7 +39,6 @@ ul {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-
 }
 li{
   margin: 15px 0;
@@ -51,11 +49,21 @@ li{
 a{
 	color: #737061;
 }
-
 #Main_content{
 	width: 62.5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #FFEC53;
 	color: #786A4F;
+	 -webkit-column-count: 2;  
+   -webkit-column-gap: 0px;  
+  -webkit-column-rule: 0px;            
+    -moz-column-count: 2;     
+      -moz-column-gap: 0px;     
+     -moz-column-rule: 0px;         
+		 column-count: 2;          
+		   column-gap: 0px;          
+		  column-rule: 0px; 
 }
 #Sidebar{
 	width: 21.8%;
