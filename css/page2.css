@@ -4,14 +4,15 @@ body{
 }
 .wraper{
 	max-width: 1366px;
-	min-width: 720px;
+	min-width: 800px;
 	border: 1px solid #989898;
 	margin: 0 auto;
 }
 #Main_h{
 	width: 100%;
 	margin: 0;
-	background-color: #A193AC;
+	/*background-color: #A193AC;*/
+	background-color: red;
 }
 h1{ 
 	margin: 0;
